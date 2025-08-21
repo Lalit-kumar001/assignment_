@@ -1,0 +1,63 @@
+/* Full screen container */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* sab kuch bottom me */
+  height: 100vh;
+  padding: 20px;
+  background: #f8f8f8; /* same ss background */
+  font-family: "Arial", sans-serif;
+}
+
+/* Bottom block (text + buttons) */
+.welcome-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* mobile width */
+  margin: 0 auto; /* center horizontally */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Heading & para */
+.welcome-header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.welcome-header p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.welcome-btn {
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+/* Primary button */
+.welcome-btn.primary {
+  background: linear-gradient(90deg, #7927ff, #9a3dff);
+  color: white;
+}
+
+/* Secondary button */
+.welcome-btn.secondary {
+  background: #e8dffb;
+  color: #6a1b9a;
+}
